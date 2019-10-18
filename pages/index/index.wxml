@@ -1,0 +1,8 @@
+<!--index.wxml-->
+<view class="container">
+  <view>
+    <view wx:for="{{movies}}">
+      <view>{{item.movieName}}</view>
+    </view>
+  </view>
+</view>
