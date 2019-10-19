@@ -1,4 +1,8 @@
-/**index.wxss**/
+page {
+  background: #373743;
+  height: 100%;
+}
+
 .list {
   font-size: 28rpx;
   width: 100%;
