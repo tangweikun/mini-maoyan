@@ -1,12 +1,12 @@
 <!--index.wxml-->
 <view class="container">
-  <view>
-    <view>
+  <view class="list">
+    <view class='row'>
       <label>影片</label>
       <label>综合票房</label>
       <label>票房占比</label>
     </view>
-    <view wx:for="{{movies}}" wx:key="{{item.movieId}}">
+    <view class='row' wx:for="{{movies}}" wx:key="{{item.movieId}}">
       <label>{{item.movieName}}</label>
       <label>{{item.boxInfo}}</label>
       <label>{{item.boxRate}}</label>
