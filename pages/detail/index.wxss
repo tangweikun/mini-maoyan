@@ -1,0 +1,57 @@
+page {
+  background: #373743;
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  height: 100%;
+  padding: 60rpx 0;
+}
+
+.movie-name {
+  font-size: 40rpx;
+}
+
+.sum-info {
+  font-size: 24rpx;
+  color: #AFAFB3;
+}
+
+.box-info-wrapper {
+  flex: 1;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 24rpx;
+  color: #AFAFB3;
+}
+
+.box-info {
+  color: #fe6b00;
+  font-size: 48rpx;
+  font-weight: bold;
+}
+
+.box-rate {
+  color: #fff;
+}
+
+.today-info {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  font-size: 24rpx;
+  color: #AFAFB3;
+}
+
+.avg-show-view, .show-info {
+  font-size: 30rpx;
+  font-weight: bold;
+  color: #fff;
+}

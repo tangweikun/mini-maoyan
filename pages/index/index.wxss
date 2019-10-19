@@ -24,5 +24,5 @@
 }
 
 .row:nth-child(even) {
-  background: #3F3F4D;
+  background: #3f3f4d;
 }

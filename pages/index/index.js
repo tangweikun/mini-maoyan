@@ -6,12 +6,16 @@ Page({
   data: {
     movies: [],
   },
+
   //事件处理函数
-  bindViewTap: function() {
+  goDetail: function(event) {
+    console.log(event.currentTarget.dataset);
+    app.globalData.detail = event.currentTarget.dataset.detail;
     wx.navigateTo({
-      url: '../logs/logs',
+      url: '../detail/index',
     });
   },
+
   onLoad: function() {
     const that = this;
     wx.request({

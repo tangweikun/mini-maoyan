@@ -6,7 +6,7 @@
       <label>综合票房</label>
       <label>票房占比</label>
     </view>
-    <view class='row' wx:for="{{movies}}" wx:key="{{item.movieId}}">
+    <view data-detail="{{item}}" bindtap="goDetail" class='row' wx:for="{{movies}}" wx:key="{{item.movieId}}">
       <label>{{item.movieName}}</label>
       <label>{{item.boxInfo}}</label>
       <label>{{item.boxRate}}</label>

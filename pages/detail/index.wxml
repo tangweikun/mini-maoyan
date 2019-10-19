@@ -1,0 +1,24 @@
+<view class='container'>
+	<view class='movie-name'>{{detail.movieName}}</view>
+	<view class='sum-info'>
+		<text decode="{{true}}">{{detail.releaseInfo}}&nbsp;</text>
+		<text>{{detail.sumBoxInfo}}</text>
+	</view>
+	<view class="box-info-wrapper">
+		<view>综合票房</view>
+		<view class="box-info">{{detail.boxInfo}}万</view>
+		<view class="box-rate">票房占比{{detail.boxRate}}</view>
+	</view>
+	<view class='today-info'>
+		<view>
+			<view>排片场次</view>
+			<view class='show-info'>{{detail.showInfo}}</view>
+			<view>排片占比{{detail.showRate}}</view>
+		</view>
+		<view>
+			<view>场均人次</view>
+			<view class="avg-show-view">{{detail.avgShowView}}</view>
+			<view>上座率{{detail.avgSeatView}}</view>
+		</view>
+	</view>
+</view>
